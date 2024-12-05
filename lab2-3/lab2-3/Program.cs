@@ -41,3 +41,31 @@
 //    }
 
 //}
+using lab2_3.lab5.zad1;
+using lab2_3.lab5.zad2;
+
+Shape shape = new Square() { X = 5 };
+Shape shape1 = new Square() { X = 154 };
+Shape circle = new Circle() { Radius = 12 };
+
+Console.WriteLine(shape.CalculateArea());
+Console.WriteLine(shape1.CalculateArea());
+Console.WriteLine(circle.CalculateArea());
+
+IVehicle car = new Car();
+
+try
+{
+
+    car.Start();
+
+    car.Stop();
+}
+catch (NotImplementedException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}
