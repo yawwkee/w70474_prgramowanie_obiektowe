@@ -10,4 +10,4 @@ namespace lab2_3.Interfejsy
     {
         DateTime CreatedDate { get; set; }
     }
-
+}

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using lab2_3.lab6;
 
 namespace lab2_3.Interfejsy
 {
@@ -11,4 +12,4 @@ namespace lab2_3.Interfejsy
         IEnumerable<Book> GetBooksByAuthor(string author);
         IEnumerable<Book> GetBooksByYear(int year);
     }
-
+}
